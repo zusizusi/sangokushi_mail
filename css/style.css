@@ -1,0 +1,106 @@
+.FlexTextarea {
+  position: relative;
+  font-size: 1rem;
+  line-height: 1.8;
+}
+
+.FlexTextarea__dummy {
+  overflow: hidden;
+  visibility: hidden;
+  box-sizing: border-box;
+  padding: 5px 15px;
+  min-height: 120px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  border: 1px solid;
+}
+
+.FlexTextarea__textarea {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  overflow: hidden;
+  box-sizing: border-box;
+  padding: 5px 15px;
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  border: 1px solid #b6c3c6;
+  border-radius: 4px;
+  color: inherit;
+  font: inherit;
+  letter-spacing: inherit;
+  resize: none;
+}
+
+.FlexTextarea__textarea:focus {
+  box-shadow: 0 0 0 4px rgba(35, 167, 195, 0.3);
+  outline: 0;
+}
+
+.blue-button {
+  background-color: #9ab3e7 !important;
+}
+
+.blue-button:hover {
+  background-color: #527fe0 !important;
+}
+
+.blue-button:focus {
+  outline: none !important;
+  box-shadow: 0 0 0 4px #cbd6ee !important;
+}
+
+.red-button {
+  background-color: #e7a69a !important;
+}
+
+.red-button:hover {
+  background-color: #e05252 !important;
+}
+
+.red-button:focus {
+  outline: none !important;
+  box-shadow: 0 0 0 4px #eecbcb !important;
+}
+
+.green-button {
+  background-color: #9ae79e !important;
+}
+
+.green-button:hover {
+  background-color: #52e065 !important;
+}
+
+.green-button:focus {
+  outline: none !important;
+  box-shadow: 0 0 0 4px #cbeecb !important;
+}
+
+.yello-button {
+  background-color: #dfe79a !important;
+}
+
+.yello-button:hover {
+  background-color: #d2e052 !important;
+}
+
+.yello-button:focus {
+  outline: none !important;
+  box-shadow: 0 0 0 4px #eceecb !important;
+}
+
+.copy-button {
+  background-color: #f5ffd2 !important;
+}
+
+.copy-button:hover {
+  background-color: #ebffc3 !important;
+}
+
+.copy-button:focus {
+  outline: none !important;
+  box-shadow: 0 0 0 4px #e3ffda !important;
+}
