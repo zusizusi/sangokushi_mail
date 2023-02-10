@@ -28,7 +28,7 @@ $ open index.html
 利用してください。
 
 ```bash
-# python2の場合
+# Python2の場合
 $ python -m SimpleHTTPServer 8080
 $ http://localhost:8080/
 
