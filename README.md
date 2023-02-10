@@ -17,7 +17,7 @@ The source code is licensed MIT. The website content is licensed CC BY 4.0,see L
 
 ターミナルで以下のような操作をすると表示できます。
 
-``` 
+```bash
 ### Sample
 $ open index.html
 ```
@@ -27,7 +27,12 @@ $ open index.html
 以下のようなコマンドを実行してHTTPプロトコル経由で
 利用してください。
 
-```
+```bash
+# python2の場合
 $ python -m SimpleHTTPServer 8080
+$ http://localhost:8080/
+
+# Python3の場合
+$ python3 -m http.server 8080
 $ http://localhost:8080/
 ```
