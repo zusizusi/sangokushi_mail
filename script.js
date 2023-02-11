@@ -154,6 +154,30 @@ function getS4JsonData() {
   };
 }
 
+// s4マップ用
+// TODO getJsonData()に統合
+function getS9JsonData() {
+  // XMLHttpRequestインスタンスを作成
+  let request = new XMLHttpRequest();
+  // JSONファイルが置いてあるパスを記述
+  request.open("GET", "map_data/s9data_1500.json");
+  request.send();
+  // JSON読み込み時の処理
+  request.onreadystatechange = () => {
+    // 全てのデータを受信・正常に処理された場合
+    if (request.readyState == 4 && request.status == 200) {
+      // JSONデータを変換
+      let json = JSON.parse(request.responseText);
+      json = json["s9"];
+      for (let i = 0; i < json.length; ++i) {
+        // console.log(json[i]);
+        generateStateButton(json[i], 9);
+        generateCastleButton(json[i], 9);
+      }
+    }
+  };
+}
+
 function generateStateButton(json, version) {
   var stateName = json["stateName"];
   var districts = json["districts"];
@@ -181,7 +205,9 @@ function generateStateButton(json, version) {
     '</a></li><li class="uk-nav-divider"></li><li class="uk-nav-header">郡名</li>' +
     districts_html +
     "</ul></div></div>";
-  if (version == 4) {
+  if (version === 9) {
+    var divButtons = document.getElementById("state-district-s9");
+  } else if (version == 4) {
     var divButtons = document.getElementById("state-district-s4");
   } else if (version == 3) {
     var divButtons = document.getElementById("state-district-s3");
@@ -235,7 +261,9 @@ function generateCastleButton(json, version) {
     districts_html +
     "</ul></div></div>";
 
-  if (version == 4) var divButtons = document.getElementById("castle-name-s4");
+  if (version == 9) var divButtons = document.getElementById("castle-name-s9");
+  else if (version == 4)
+    var divButtons = document.getElementById("castle-name-s4");
   else if (version == 3)
     var divButtons = document.getElementById("castle-name-s3");
   else var divButtons = document.getElementById("castle-name-s2");
@@ -245,4 +273,5 @@ function generateCastleButton(json, version) {
 window.onload = function () {
   getJsonData();
   getS4JsonData();
+  getS9JsonData();
 };
