@@ -31,16 +31,10 @@ function addColor(e, color) {
 
 // テキストエリアから選択部分を取得
 function getSelectionTextarea(e) {
-  if (document.selection) {
-    // IE
-    e.focus(); // ドキュメントのフォーカスをテキストエリアにあてる
-    var r = document.selection.createRange(); // 現在フォーカスのあたっている選択範囲を取得する
-    return r.text;
-  } else if (e.setSelectionRange) {
-    // Mozilla(NN)
-    e.focus(); // NNの場合は得にフォーカスをあてる必要はないが動作を同等にしている
+  try {
+    e.focus();
     return e.value.substring(e.selectionStart, e.selectionEnd); // テキストエリアのvalueから開始位置と終了位置を指定して抜き出し
-  } else {
+  } catch (error) {
     alert("ブラウザが対応していません");
     return null;
   }
@@ -56,7 +50,7 @@ document.getElementById("copy-button").addEventListener("click", function () {
     window.getSelection().addRange(range);
   } else {
     try {
-      targetText.select(); // input field
+      targetText.select(); 
     } catch (error) {
       document.getSelection().selectAllChildren(a);
     }
