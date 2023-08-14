@@ -1,0 +1,2116 @@
+{
+  "non-coordinate": [
+    {
+      "stateName": "司隷",
+      "stateNameYomi": "",
+      "districts": [
+        {
+          "districtName": "関",
+          "districtNameYomi": "",
+          "castles": [
+            {
+              "castleName": "析県",
+              "castleNameYomi": "",
+              "castleLevel": "9",
+              "castleLocation": ""
+            },
+            {
+              "castleName": "武関",
+              "castleNameYomi": "",
+              "castleLevel": "9",
+              "castleLocation": ""
+            },
+            {
+              "castleName": "風陵渡",
+              "castleNameYomi": "",
+              "castleLevel": "9",
+              "castleLocation": ""
+            },
+            {
+              "castleName": "潼関",
+              "castleNameYomi": "",
+              "castleLevel": "9",
+              "castleLocation": ""
+            }
+          ]
+        },
+        {
+          "districtName": "弘農",
+          "districtNameYomi": "",
+          "castles": [
+            {
+              "castleName": "蘆氏",
+              "castleNameYomi": "",
+              "castleLevel": "7",
+              "castleLocation": ""
+            },
+            {
+              "castleName": "新安",
+              "castleNameYomi": "",
+              "castleLevel": "8",
+              "castleLocation": ""
+            },
+            {
+              "castleName": "宜陽",
+              "castleNameYomi": "",
+              "castleLevel": "8",
+              "castleLocation": ""
+            },
+            {
+              "castleName": "弘農",
+              "castleNameYomi": "",
+              "castleLevel": "9",
+              "castleLocation": ""
+            }
+          ]
+        },
+        {
+          "districtName": "河内",
+          "districtNameYomi": "",
+          "castles": [
+            {
+              "castleName": "安邑",
+              "castleNameYomi": "",
+              "castleLevel": "5",
+              "castleLocation": ""
+            },
+            {
+              "castleName": "東垣",
+              "castleNameYomi": "",
+              "castleLevel": "6",
+              "castleLocation": ""
+            },
+            {
+              "castleName": "河内",
+              "castleNameYomi": "",
+              "castleLevel": "9",
+              "castleLocation": ""
+            }
+          ]
+        },
+        {
+          "districtName": "河南尹",
+          "districtNameYomi": "",
+          "castles": [
+            {
+              "castleName": "京県",
+              "castleNameYomi": "",
+              "castleLevel": "6",
+              "castleLocation": ""
+            },
+            {
+              "castleName": "新鄭",
+              "castleNameYomi": "",
+              "castleLevel": "7",
+              "castleLocation": ""
+            },
+            {
+              "castleName": "新城",
+              "castleNameYomi": "",
+              "castleLevel": "7",
+              "castleLocation": ""
+            },
+            {
+              "castleName": "孟津",
+              "castleNameYomi": "",
+              "castleLevel": "8",
+              "castleLocation": ""
+            },
+            {
+              "castleName": "函谷関",
+              "castleNameYomi": "",
+              "castleLevel": "8",
+              "castleLocation": ""
+            },
+            {
+              "castleName": "虎牢関",
+              "castleNameYomi": "",
+              "castleLevel": "8",
+              "castleLocation": ""
+            },
+            {
+              "castleName": "洛陽",
+              "castleNameYomi": "",
+              "castleLevel": "10",
+              "castleLocation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "stateName": "江漢",
+      "stateNameYomi": "",
+      "districts": [
+        {
+          "districtName": "関",
+          "districtNameYomi": "",
+          "castles": [
+            {
+              "castleName": "博望",
+              "castleNameYomi": "",
+              "castleLevel": "7",
+              "castleLocation": ""
+            },
+            {
+              "castleName": "夏口",
+              "castleNameYomi": "",
+              "castleLevel": "7",
+              "castleLocation": ""
+            },
+            {
+              "castleName": "夷陵",
+              "castleNameYomi": "",
+              "castleLevel": "7",
+              "castleLocation": ""
+            },
+            {
+              "castleName": "公安港",
+              "castleNameYomi": "",
+              "castleLevel": "7",
+              "castleLocation": ""
+            },
+            {
+              "castleName": "九江港",
+              "castleNameYomi": "",
+              "castleLevel": "7",
+              "castleLocation": ""
+            },
+            {
+              "castleName": "西安",
+              "castleNameYomi": "",
+              "castleLevel": "7",
+              "castleLocation": ""
+            },
+            {
+              "castleName": "上洛",
+              "castleNameYomi": "",
+              "castleLevel": "8",
+              "castleLocation": ""
+            },
+            {
+              "castleName": "西城",
+              "castleNameYomi": "",
+              "castleLevel": "8",
+              "castleLocation": ""
+            },
+            {
+              "castleName": "析県",
+              "castleNameYomi": "",
+              "castleLevel": "9",
+              "castleLocation": ""
+            },
+            {
+              "castleName": "武関",
+              "castleNameYomi": "",
+              "castleLevel": "9",
+              "castleLocation": ""
+            }
+          ]
+        },
+        {
+          "districtName": "上庸",
+          "districtNameYomi": "",
+          "castles": [
+            {
+              "castleName": "錫県",
+              "castleNameYomi": "",
+              "castleLevel": "4",
+              "castleLocation": ""
+            },
+            {
+              "castleName": "綏陽",
+              "castleNameYomi": "",
+              "castleLevel": "4",
+              "castleLocation": ""
+            },
+            {
+              "castleName": "房陵",
+              "castleNameYomi": "",
+              "castleLevel": "7",
+              "castleLocation": ""
+            },
+            {
+              "castleName": "上庸",
+              "castleNameYomi": "",
+              "castleLevel": "8",
+              "castleLocation": ""
+            }
+          ]
+        },
+        {
+          "districtName": "南陽",
+          "districtNameYomi": "",
+          "castles": [
+            {
+              "castleName": "新野",
+              "castleNameYomi": "",
+              "castleLevel": "4",
+              "castleLocation": ""
+            },
+            {
+              "castleName": "南郷",
+              "castleNameYomi": "",
+              "castleLevel": "5",
+              "castleLocation": ""
+            },
+            {
+              "castleName": "酈県",
+              "castleNameYomi": "",
+              "castleLevel": "6",
+              "castleLocation": ""
+            },
+            {
+              "castleName": "宛",
+              "castleNameYomi": "",
+              "castleLevel": "7",
+              "castleLocation": ""
+            }
+          ]
+        },
+        {
+          "districtName": "南",
+          "districtNameYomi": "",
+          "castles": [
+            {
+              "castleName": "華容",
+              "castleNameYomi": "",
+              "castleLevel": "4",
+              "castleLocation": ""
+            },
+            {
+              "castleName": "西陵",
+              "castleNameYomi": "",
+              "castleLevel": "5",
+              "castleLocation": ""
+            },
+            {
+              "castleName": "秭帰",
+              "castleNameYomi": "",
+              "castleLevel": "6",
+              "castleLocation": ""
+            },
+            {
+              "castleName": "江陵",
+              "castleNameYomi": "",
+              "castleLevel": "8",
+              "castleLocation": ""
+            }
+          ]
+        },
+        {
+          "districtName": "江夏",
+          "districtNameYomi": "",
+          "castles": [
+            {
+              "castleName": "陽新",
+              "castleNameYomi": "",
+              "castleLevel": "4",
+              "castleLocation": ""
+            },
+            {
+              "castleName": "柴桑",
+              "castleNameYomi": "",
+              "castleLevel": "7",
+              "castleLocation": ""
+            },
+            {
+              "castleName": "江夏",
+              "castleNameYomi": "",
+              "castleLevel": "8",
+              "castleLocation": ""
+            }
+          ]
+        },
+        {
+          "districtName": "襄陽",
+          "districtNameYomi": "",
+          "castles": [
+            {
+              "castleName": "臨沮",
+              "castleNameYomi": "",
+              "castleLevel": "3",
+              "castleLocation": ""
+            },
+            {
+              "castleName": "鄀県",
+              "castleNameYomi": "",
+              "castleLevel": "7",
+              "castleLocation": ""
+            },
+            {
+              "castleName": "襄陽",
+              "castleNameYomi": "",
+              "castleLevel": "9",
+              "castleLocation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "stateName": "関中",
+      "stateNameYomi": "",
+      "districts": [
+        {
+          "districtName": "関",
+          "districtNameYomi": "",
+          "castles": [
+            {
+              "castleName": "月支城",
+              "castleNameYomi": "",
+              "castleLevel": "7",
+              "castleLocation": ""
+            },
+            {
+              "castleName": "蕭関",
+              "castleNameYomi": "",
+              "castleLevel": "7",
+              "castleLocation": ""
+            },
+            {
+              "castleName": "鄜城",
+              "castleNameYomi": "",
+              "castleLevel": "7",
+              "castleLocation": ""
+            },
+            {
+              "castleName": "蒲坂津",
+              "castleNameYomi": "",
+              "castleLevel": "7",
+              "castleLocation": ""
+            },
+            {
+              "castleName": "散関",
+              "castleNameYomi": "",
+              "castleLevel": "7",
+              "castleLocation": ""
+            },
+            {
+              "castleName": "陽平関",
+              "castleNameYomi": "",
+              "castleLevel": "7",
+              "castleLocation": ""
+            },
+            {
+              "castleName": "上洛",
+              "castleNameYomi": "",
+              "castleLevel": "8",
+              "castleLocation": ""
+            },
+            {
+              "castleName": "西城",
+              "castleNameYomi": "",
+              "castleLevel": "8",
+              "castleLocation": ""
+            },
+            {
+              "castleName": "風陵渡",
+              "castleNameYomi": "",
+              "castleLevel": "9",
+              "castleLocation": ""
+            },
+            {
+              "castleName": "潼関",
+              "castleNameYomi": "",
+              "castleLevel": "9",
+              "castleLocation": ""
+            }
+          ]
+        },
+        {
+          "districtName": "安定",
+          "districtNameYomi": "",
+          "castles": [
+            {
+              "castleName": "陰密",
+              "castleNameYomi": "",
+              "castleLevel": "4",
+              "castleLocation": ""
+            },
+            {
+              "castleName": "涇陽",
+              "castleNameYomi": "",
+              "castleLevel": "6",
+              "castleLocation": ""
+            },
+            {
+              "castleName": "漆県",
+              "castleNameYomi": "",
+              "castleLevel": "6",
+              "castleLocation": ""
+            },
+            {
+              "castleName": "安定",
+              "castleNameYomi": "",
+              "castleLevel": "7",
+              "castleLocation": ""
+            }
+          ]
+        },
+        {
+          "districtName": "漢中",
+          "districtNameYomi": "",
+          "castles": [
+            {
+              "castleName": "興勢",
+              "castleNameYomi": "",
+              "castleLevel": "4",
+              "castleLocation": ""
+            },
+            {
+              "castleName": "安陽",
+              "castleNameYomi": "",
+              "castleLevel": "5",
+              "castleLocation": ""
+            },
+            {
+              "castleName": "漢中",
+              "castleNameYomi": "",
+              "castleLevel": "8",
+              "castleLocation": ""
+            }
+          ]
+        },
+        {
+          "districtName": "扶風",
+          "districtNameYomi": "",
+          "castles": [
+            {
+              "castleName": "扗陽",
+              "castleNameYomi": "",
+              "castleLevel": "4",
+              "castleLocation": ""
+            },
+            {
+              "castleName": "汧県",
+              "castleNameYomi": "",
+              "castleLevel": "5",
+              "castleLocation": ""
+            },
+            {
+              "castleName": "陳倉",
+              "castleNameYomi": "",
+              "castleLevel": "7",
+              "castleLocation": ""
+            },
+            {
+              "castleName": "槐里",
+              "castleNameYomi": "",
+              "castleLevel": "8",
+              "castleLocation": ""
+            }
+          ]
+        },
+        {
+          "districtName": "馮翊",
+          "districtNameYomi": "",
+          "castles": [
+            {
+              "castleName": "夏陽",
+              "castleNameYomi": "",
+              "castleLevel": "5",
+              "castleLocation": ""
+            },
+            {
+              "castleName": "泥陽",
+              "castleNameYomi": "",
+              "castleLevel": "7",
+              "castleLocation": ""
+            },
+            {
+              "castleName": "粟邑",
+              "castleNameYomi": "",
+              "castleLevel": "7",
+              "castleLocation": ""
+            },
+            {
+              "castleName": "臨晋",
+              "castleNameYomi": "",
+              "castleLevel": "8",
+              "castleLocation": ""
+            }
+          ]
+        },
+        {
+          "districtName": "京兆",
+          "districtNameYomi": "",
+          "castles": [
+            {
+              "castleName": "高陸",
+              "castleNameYomi": "",
+              "castleLevel": "5",
+              "castleLocation": ""
+            },
+            {
+              "castleName": "藍田",
+              "castleNameYomi": "",
+              "castleLevel": "5",
+              "castleLocation": ""
+            },
+            {
+              "castleName": "鄭県",
+              "castleNameYomi": "",
+              "castleLevel": "7",
+              "castleLocation": ""
+            },
+            {
+              "castleName": "長安",
+              "castleNameYomi": "",
+              "castleLevel": "9",
+              "castleLocation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "stateName": "荊楚",
+      "stateNameYomi": "",
+      "districts": [
+        {
+          "districtName": "関",
+          "districtNameYomi": "",
+          "castles": [
+            {
+              "castleName": "陽楽",
+              "castleNameYomi": "",
+              "castleLevel": "6",
+              "castleLocation": ""
+            },
+            {
+              "castleName": "曲江",
+              "castleNameYomi": "",
+              "castleLevel": "6",
+              "castleLocation": ""
+            },
+            {
+              "castleName": "永安",
+              "castleNameYomi": "",
+              "castleLevel": "6",
+              "castleLocation": ""
+            },
+            {
+              "castleName": "始安",
+              "castleNameYomi": "",
+              "castleLevel": "6",
+              "castleLocation": ""
+            },
+            {
+              "castleName": "夷陵",
+              "castleNameYomi": "",
+              "castleLevel": "7",
+              "castleLocation": ""
+            },
+            {
+              "castleName": "公安港",
+              "castleNameYomi": "",
+              "castleLevel": "7",
+              "castleLocation": ""
+            }
+          ]
+        },
+        {
+          "districtName": "鬱林",
+          "districtNameYomi": "",
+          "castles": [
+            {
+              "castleName": "建陵",
+              "castleNameYomi": "",
+              "castleLevel": "4",
+              "castleLocation": ""
+            },
+            {
+              "castleName": "臨浦",
+              "castleNameYomi": "",
+              "castleLevel": "5",
+              "castleLocation": ""
+            },
+            {
+              "castleName": "桂林",
+              "castleNameYomi": "",
+              "castleLevel": "6",
+              "castleLocation": ""
+            },
+            {
+              "castleName": "布山",
+              "castleNameYomi": "",
+              "castleLevel": "6",
+              "castleLocation": ""
+            }
+          ]
+        },
+        {
+          "districtName": "南海",
+          "districtNameYomi": "",
+          "castles": [
+            {
+              "castleName": "中宿",
+              "castleNameYomi": "",
+              "castleLevel": "4",
+              "castleLocation": ""
+            },
+            {
+              "castleName": "広信",
+              "castleNameYomi": "",
+              "castleLevel": "5",
+              "castleLocation": ""
+            },
+            {
+              "castleName": "思平",
+              "castleNameYomi": "",
+              "castleLevel": "6",
+              "castleLocation": ""
+            },
+            {
+              "castleName": "南海",
+              "castleNameYomi": "",
+              "castleLevel": "7",
+              "castleLocation": ""
+            }
+          ]
+        },
+        {
+          "districtName": "武陵",
+          "districtNameYomi": "",
+          "castles": [
+            {
+              "castleName": "佷山",
+              "castleNameYomi": "",
+              "castleLevel": "4",
+              "castleLocation": ""
+            },
+            {
+              "castleName": "沙渠",
+              "castleNameYomi": "",
+              "castleLevel": "4",
+              "castleLocation": ""
+            },
+            {
+              "castleName": "舞陽",
+              "castleNameYomi": "",
+              "castleLevel": "5",
+              "castleLocation": ""
+            },
+            {
+              "castleName": "武陵",
+              "castleNameYomi": "",
+              "castleLevel": "7",
+              "castleLocation": ""
+            }
+          ]
+        },
+        {
+          "districtName": "零陵",
+          "districtNameYomi": "",
+          "castles": [
+            {
+              "castleName": "観陽",
+              "castleNameYomi": "",
+              "castleLevel": "4",
+              "castleLocation": ""
+            },
+            {
+              "castleName": "春陵",
+              "castleNameYomi": "",
+              "castleLevel": "4",
+              "castleLocation": ""
+            },
+            {
+              "castleName": "臨賀",
+              "castleNameYomi": "",
+              "castleLevel": "6",
+              "castleLocation": ""
+            },
+            {
+              "castleName": "零陵",
+              "castleNameYomi": "",
+              "castleLevel": "7",
+              "castleLocation": ""
+            }
+          ]
+        },
+        {
+          "districtName": "衡陽",
+          "districtNameYomi": "",
+          "castles": [
+            {
+              "castleName": "重安",
+              "castleNameYomi": "",
+              "castleLevel": "4",
+              "castleLocation": ""
+            },
+            {
+              "castleName": "益陽",
+              "castleNameYomi": "",
+              "castleLevel": "4",
+              "castleLocation": ""
+            },
+            {
+              "castleName": "湘南",
+              "castleNameYomi": "",
+              "castleLevel": "6",
+              "castleLocation": ""
+            }
+          ]
+        },
+        {
+          "districtName": "桂陽",
+          "districtNameYomi": "",
+          "castles": [
+            {
+              "castleName": "耒陽",
+              "castleNameYomi": "",
+              "castleLevel": "4",
+              "castleLocation": ""
+            },
+            {
+              "castleName": "湞陽",
+              "castleNameYomi": "",
+              "castleLevel": "5",
+              "castleLocation": ""
+            },
+            {
+              "castleName": "臨武",
+              "castleNameYomi": "",
+              "castleLevel": "6",
+              "castleLocation": ""
+            },
+            {
+              "castleName": "桂陽",
+              "castleNameYomi": "",
+              "castleLevel": "7",
+              "castleLocation": ""
+            }
+          ]
+        },
+        {
+          "districtName": "長沙",
+          "districtNameYomi": "",
+          "castles": [
+            {
+              "castleName": "下雋",
+              "castleNameYomi": "",
+              "castleLevel": "4",
+              "castleLocation": ""
+            },
+            {
+              "castleName": "安成",
+              "castleNameYomi": "",
+              "castleLevel": "4",
+              "castleLocation": ""
+            },
+            {
+              "castleName": "劉陽",
+              "castleNameYomi": "",
+              "castleLevel": "5",
+              "castleLocation": ""
+            },
+            {
+              "castleName": "醴陵",
+              "castleNameYomi": "",
+              "castleLevel": "6",
+              "castleLocation": ""
+            },
+            {
+              "castleName": "長沙",
+              "castleNameYomi": "",
+              "castleLevel": "8",
+              "castleLocation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "stateName": "巴蜀",
+      "stateNameYomi": "",
+      "districts": [
+        {
+          "districtName": "関",
+          "districtNameYomi": "",
+          "castles": [
+            {
+              "castleName": "甘松",
+              "castleNameYomi": "",
+              "castleLevel": "6",
+              "castleLocation": ""
+            },
+            {
+              "castleName": "歴城",
+              "castleNameYomi": "",
+              "castleLevel": "6",
+              "castleLocation": ""
+            },
+            {
+              "castleName": "永安",
+              "castleNameYomi": "",
+              "castleLevel": "6",
+              "castleLocation": ""
+            },
+            {
+              "castleName": "始安",
+              "castleNameYomi": "",
+              "castleLevel": "6",
+              "castleLocation": ""
+            },
+            {
+              "castleName": "散関",
+              "castleNameYomi": "",
+              "castleLevel": "7",
+              "castleLocation": ""
+            },
+            {
+              "castleName": "陽平関",
+              "castleNameYomi": "",
+              "castleLevel": "7",
+              "castleLocation": ""
+            }
+          ]
+        },
+        {
+          "districtName": "梓潼",
+          "districtNameYomi": "",
+          "castles": [
+            {
+              "castleName": "平康",
+              "castleNameYomi": "",
+              "castleLevel": "4",
+              "castleLocation": ""
+            },
+            {
+              "castleName": "綿竹関",
+              "castleNameYomi": "",
+              "castleLevel": "5",
+              "castleLocation": ""
+            },
+            {
+              "castleName": "綿虒",
+              "castleNameYomi": "",
+              "castleLevel": "6",
+              "castleLocation": ""
+            },
+            {
+              "castleName": "梓潼",
+              "castleNameYomi": "",
+              "castleLevel": "7",
+              "castleLocation": ""
+            }
+          ]
+        },
+        {
+          "districtName": "陰平",
+          "districtNameYomi": "",
+          "castles": [
+            {
+              "castleName": "湔氐",
+              "castleNameYomi": "",
+              "castleLevel": "4",
+              "castleLocation": ""
+            },
+            {
+              "castleName": "剣閣",
+              "castleNameYomi": "",
+              "castleLevel": "5",
+              "castleLocation": ""
+            },
+            {
+              "castleName": "広武",
+              "castleNameYomi": "",
+              "castleLevel": "5",
+              "castleLocation": ""
+            },
+            {
+              "castleName": "武都",
+              "castleNameYomi": "",
+              "castleLevel": "6",
+              "castleLocation": ""
+            },
+            {
+              "castleName": "陰平",
+              "castleNameYomi": "",
+              "castleLevel": "6",
+              "castleLocation": ""
+            }
+          ]
+        },
+        {
+          "districtName": "巴西",
+          "districtNameYomi": "",
+          "castles": [
+            {
+              "castleName": "漢豊",
+              "castleNameYomi": "",
+              "castleLevel": "4",
+              "castleLocation": ""
+            },
+            {
+              "castleName": "宕渠",
+              "castleNameYomi": "",
+              "castleLevel": "5",
+              "castleLocation": ""
+            },
+            {
+              "castleName": "漢昌",
+              "castleNameYomi": "",
+              "castleLevel": "6",
+              "castleLocation": ""
+            },
+            {
+              "castleName": "閬中",
+              "castleNameYomi": "",
+              "castleLevel": "6",
+              "castleLocation": ""
+            }
+          ]
+        },
+        {
+          "districtName": "牂柯",
+          "districtNameYomi": "",
+          "castles": [
+            {
+              "castleName": "毋斂",
+              "castleNameYomi": "",
+              "castleLevel": "34",
+              "castleLocation": ""
+            },
+            {
+              "castleName": "広談",
+              "castleNameYomi": "",
+              "castleLevel": "4",
+              "castleLocation": ""
+            },
+            {
+              "castleName": "鄨県",
+              "castleNameYomi": "",
+              "castleLevel": "5",
+              "castleLocation": ""
+            },
+            {
+              "castleName": "牂柯",
+              "castleNameYomi": "",
+              "castleLevel": "6",
+              "castleLocation": ""
+            }
+          ]
+        },
+        {
+          "districtName": "漢嘉",
+          "districtNameYomi": "",
+          "castles": [
+            {
+              "castleName": "江原",
+              "castleNameYomi": "",
+              "castleLevel": "4",
+              "castleLocation": ""
+            },
+            {
+              "castleName": "武陽",
+              "castleNameYomi": "",
+              "castleLevel": "5",
+              "castleLocation": ""
+            },
+            {
+              "castleName": "漢嘉",
+              "castleNameYomi": "",
+              "castleLevel": "7",
+              "castleLocation": ""
+            }
+          ]
+        },
+        {
+          "districtName": "巴",
+          "districtNameYomi": "",
+          "castles": [
+            {
+              "castleName": "江陽",
+              "castleNameYomi": "",
+              "castleLevel": "4",
+              "castleLocation": ""
+            },
+            {
+              "castleName": "漢復",
+              "castleNameYomi": "",
+              "castleLevel": "6",
+              "castleLocation": ""
+            },
+            {
+              "castleName": "涪陵",
+              "castleNameYomi": "",
+              "castleLevel": "6",
+              "castleLocation": ""
+            },
+            {
+              "castleName": "江州",
+              "castleNameYomi": "",
+              "castleLevel": "7",
+              "castleLocation": ""
+            }
+          ]
+        },
+        {
+          "districtName": "蜀",
+          "districtNameYomi": "",
+          "castles": [
+            {
+              "castleName": "涪県",
+              "castleNameYomi": "",
+              "castleLevel": "4",
+              "castleLocation": ""
+            },
+            {
+              "castleName": "徳陽",
+              "castleNameYomi": "",
+              "castleLevel": "4",
+              "castleLocation": ""
+            },
+            {
+              "castleName": "漢安",
+              "castleNameYomi": "",
+              "castleLevel": "4",
+              "castleLocation": ""
+            },
+            {
+              "castleName": "郪県",
+              "castleNameYomi": "",
+              "castleLevel": "6",
+              "castleLocation": ""
+            },
+            {
+              "castleName": "成都",
+              "castleNameYomi": "",
+              "castleLevel": "8",
+              "castleLocation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "stateName": "西涼",
+      "stateNameYomi": "",
+      "districts": [
+        {
+          "districtName": "関",
+          "districtNameYomi": "",
+          "castles": [
+            {
+              "castleName": "甘松",
+              "castleNameYomi": "",
+              "castleLevel": "6",
+              "castleLocation": ""
+            },
+            {
+              "castleName": "歴城",
+              "castleNameYomi": "",
+              "castleLevel": "6",
+              "castleLocation": ""
+            },
+            {
+              "castleName": "陰山",
+              "castleNameYomi": "",
+              "castleLevel": "6",
+              "castleLocation": ""
+            },
+            {
+              "castleName": "大城",
+              "castleNameYomi": "",
+              "castleLevel": "6",
+              "castleLocation": ""
+            },
+            {
+              "castleName": "月支城",
+              "castleNameYomi": "",
+              "castleLevel": "7",
+              "castleLocation": ""
+            },
+            {
+              "castleName": "蕭関",
+              "castleNameYomi": "",
+              "castleLevel": "7",
+              "castleLocation": ""
+            }
+          ]
+        },
+        {
+          "districtName": "南安",
+          "districtNameYomi": "",
+          "castles": [
+            {
+              "castleName": "平襄",
+              "castleNameYomi": "",
+              "castleLevel": "4",
+              "castleLocation": ""
+            },
+            {
+              "castleName": "中陶",
+              "castleNameYomi": "",
+              "castleLevel": "4",
+              "castleLocation": ""
+            },
+            {
+              "castleName": "獂道",
+              "castleNameYomi": "",
+              "castleLevel": "6",
+              "castleLocation": ""
+            }
+          ]
+        },
+        {
+          "districtName": "西平",
+          "districtNameYomi": "",
+          "castles": [
+            {
+              "castleName": "臨羌",
+              "castleNameYomi": "",
+              "castleLevel": "4",
+              "castleLocation": ""
+            },
+            {
+              "castleName": "破羌",
+              "castleNameYomi": "",
+              "castleLevel": "5",
+              "castleLocation": ""
+            },
+            {
+              "castleName": "西都",
+              "castleNameYomi": "",
+              "castleLevel": "6",
+              "castleLocation": ""
+            }
+          ]
+        },
+        {
+          "districtName": "北地",
+          "districtNameYomi": "",
+          "castles": [
+            {
+              "castleName": "富平",
+              "castleNameYomi": "",
+              "castleLevel": "4",
+              "castleLocation": ""
+            },
+            {
+              "castleName": "祖厲",
+              "castleNameYomi": "",
+              "castleLevel": "4",
+              "castleLocation": ""
+            },
+            {
+              "castleName": "鸇陰",
+              "castleNameYomi": "",
+              "castleLevel": "5",
+              "castleLocation": ""
+            },
+            {
+              "castleName": "霊州",
+              "castleNameYomi": "",
+              "castleLevel": "6",
+              "castleLocation": ""
+            }
+          ]
+        },
+        {
+          "districtName": "朔方",
+          "districtNameYomi": "",
+          "castles": [
+            {
+              "castleName": "鶏鹿塞",
+              "castleNameYomi": "",
+              "castleLevel": "4",
+              "castleLocation": ""
+            },
+            {
+              "castleName": "高闕",
+              "castleNameYomi": "",
+              "castleLevel": "5",
+              "castleLocation": ""
+            },
+            {
+              "castleName": "臨戎",
+              "castleNameYomi": "",
+              "castleLevel": "6",
+              "castleLocation": ""
+            }
+          ]
+        },
+        {
+          "districtName": "金城",
+          "districtNameYomi": "",
+          "castles": [
+            {
+              "castleName": "允吾",
+              "castleNameYomi": "",
+              "castleLevel": "4",
+              "castleLocation": ""
+            },
+            {
+              "castleName": "令居",
+              "castleNameYomi": "",
+              "castleLevel": "6",
+              "castleLocation": ""
+            },
+            {
+              "castleName": "金城",
+              "castleNameYomi": "",
+              "castleLevel": "6",
+              "castleLocation": ""
+            },
+            {
+              "castleName": "楡中",
+              "castleNameYomi": "",
+              "castleLevel": "7",
+              "castleLocation": ""
+            }
+          ]
+        },
+        {
+          "districtName": "隴西",
+          "districtNameYomi": "",
+          "castles": [
+            {
+              "castleName": "河関",
+              "castleNameYomi": "",
+              "castleLevel": "4",
+              "castleLocation": ""
+            },
+            {
+              "castleName": "狄道",
+              "castleNameYomi": "",
+              "castleLevel": "5",
+              "castleLocation": ""
+            },
+            {
+              "castleName": "臨洮",
+              "castleNameYomi": "",
+              "castleLevel": "6",
+              "castleLocation": ""
+            },
+            {
+              "castleName": "襄武",
+              "castleNameYomi": "",
+              "castleLevel": "6",
+              "castleLocation": ""
+            }
+          ]
+        },
+        {
+          "districtName": "天水",
+          "districtNameYomi": "",
+          "castles": [
+            {
+              "castleName": "街亭",
+              "castleNameYomi": "",
+              "castleLevel": "5",
+              "castleLocation": ""
+            },
+            {
+              "castleName": "西県",
+              "castleNameYomi": "",
+              "castleLevel": "6",
+              "castleLocation": ""
+            },
+            {
+              "castleName": "成紀",
+              "castleNameYomi": "",
+              "castleLevel": "7",
+              "castleLocation": ""
+            },
+            {
+              "castleName": "臨渭",
+              "castleNameYomi": "",
+              "castleLevel": "7",
+              "castleLocation": ""
+            },
+            {
+              "castleName": "天水",
+              "castleNameYomi": "",
+              "castleLevel": "8",
+              "castleLocation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "stateName": "江東",
+      "stateNameYomi": "",
+      "districts": [
+        {
+          "districtName": "関",
+          "districtNameYomi": "",
+          "castles": [
+            {
+              "castleName": "陽楽",
+              "castleNameYomi": "",
+              "castleLevel": "6",
+              "castleLocation": ""
+            },
+            {
+              "castleName": "曲江",
+              "castleNameYomi": "",
+              "castleLevel": "6",
+              "castleLocation": ""
+            },
+            {
+              "castleName": "濡須口",
+              "castleNameYomi": "",
+              "castleLevel": "6",
+              "castleLocation": ""
+            },
+            {
+              "castleName": "皖口",
+              "castleNameYomi": "",
+              "castleLevel": "6",
+              "castleLocation": ""
+            },
+            {
+              "castleName": "九江港",
+              "castleNameYomi": "",
+              "castleLevel": "7",
+              "castleLocation": ""
+            },
+            {
+              "castleName": "西安",
+              "castleNameYomi": "",
+              "castleLevel": "7",
+              "castleLocation": ""
+            }
+          ]
+        },
+        {
+          "districtName": "鄱陽",
+          "districtNameYomi": "",
+          "castles": [
+            {
+              "castleName": "楽安",
+              "castleNameYomi": "",
+              "castleLevel": "4",
+              "castleLocation": ""
+            },
+            {
+              "castleName": "上饒",
+              "castleNameYomi": "",
+              "castleLevel": "4",
+              "castleLocation": ""
+            },
+            {
+              "castleName": "黟県",
+              "castleNameYomi": "",
+              "castleLevel": "4",
+              "castleLocation": ""
+            },
+            {
+              "castleName": "彭沢",
+              "castleNameYomi": "",
+              "castleLevel": "5",
+              "castleLocation": ""
+            },
+            {
+              "castleName": "鄱陽",
+              "castleNameYomi": "",
+              "castleLevel": "6",
+              "castleLocation": ""
+            }
+          ]
+        },
+        {
+          "districtName": "蘆陵",
+          "districtNameYomi": "",
+          "castles": [
+            {
+              "castleName": "揚都",
+              "castleNameYomi": "",
+              "castleLevel": "4",
+              "castleLocation": ""
+            },
+            {
+              "castleName": "南野",
+              "castleNameYomi": "",
+              "castleLevel": "4",
+              "castleLocation": ""
+            },
+            {
+              "castleName": "陽城",
+              "castleNameYomi": "",
+              "castleLevel": "5",
+              "castleLocation": ""
+            },
+            {
+              "castleName": "高昌",
+              "castleNameYomi": "",
+              "castleLevel": "6",
+              "castleLocation": ""
+            }
+          ]
+        },
+        {
+          "districtName": "臨川",
+          "districtNameYomi": "",
+          "castles": [
+            {
+              "castleName": "西平",
+              "castleNameYomi": "",
+              "castleLevel": "3",
+              "castleLocation": ""
+            },
+            {
+              "castleName": "安浦",
+              "castleNameYomi": "",
+              "castleLevel": "4",
+              "castleLocation": ""
+            },
+            {
+              "castleName": "昭武",
+              "castleNameYomi": "",
+              "castleLevel": "4",
+              "castleLocation": ""
+            },
+            {
+              "castleName": "南城",
+              "castleNameYomi": "",
+              "castleLevel": "6",
+              "castleLocation": ""
+            }
+          ]
+        },
+        {
+          "districtName": "会稽",
+          "districtNameYomi": "",
+          "castles": [
+            {
+              "castleName": "永康",
+              "castleNameYomi": "",
+              "castleLevel": "4",
+              "castleLocation": ""
+            },
+            {
+              "castleName": "建徳",
+              "castleNameYomi": "",
+              "castleLevel": "5",
+              "castleLocation": ""
+            },
+            {
+              "castleName": "鄞県",
+              "castleNameYomi": "",
+              "castleLevel": "5",
+              "castleLocation": ""
+            },
+            {
+              "castleName": "会稽",
+              "castleNameYomi": "",
+              "castleLevel": "7",
+              "castleLocation": ""
+            }
+          ]
+        },
+        {
+          "districtName": "豫章",
+          "districtNameYomi": "",
+          "castles": [
+            {
+              "castleName": "上蔡",
+              "castleNameYomi": "",
+              "castleLevel": "4",
+              "castleLocation": ""
+            },
+            {
+              "castleName": "新淦",
+              "castleNameYomi": "",
+              "castleLevel": "5",
+              "castleLocation": ""
+            },
+            {
+              "castleName": "艾県",
+              "castleNameYomi": "",
+              "castleLevel": "6",
+              "castleLocation": ""
+            },
+            {
+              "castleName": "南昌",
+              "castleNameYomi": "",
+              "castleLevel": "6",
+              "castleLocation": ""
+            }
+          ]
+        },
+        {
+          "districtName": "丹陽",
+          "districtNameYomi": "",
+          "castles": [
+            {
+              "castleName": "臨城",
+              "castleNameYomi": "",
+              "castleLevel": "4",
+              "castleLocation": ""
+            },
+            {
+              "castleName": "嘉興",
+              "castleNameYomi": "",
+              "castleLevel": "4",
+              "castleLocation": ""
+            },
+            {
+              "castleName": "宣城",
+              "castleNameYomi": "",
+              "castleLevel": "5",
+              "castleLocation": ""
+            },
+            {
+              "castleName": "呉",
+              "castleNameYomi": "",
+              "castleLevel": "7",
+              "castleLocation": ""
+            },
+            {
+              "castleName": "建業",
+              "castleNameYomi": "",
+              "castleLevel": "8",
+              "castleLocation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "stateName": "山東",
+      "stateNameYomi": "",
+      "districts": [
+        {
+          "districtName": "関",
+          "districtNameYomi": "",
+          "castles": [
+            {
+              "castleName": "濡須口",
+              "castleNameYomi": "",
+              "castleLevel": "6",
+              "castleLocation": ""
+            },
+            {
+              "castleName": "皖口",
+              "castleNameYomi": "",
+              "castleLevel": "6",
+              "castleLocation": ""
+            },
+            {
+              "castleName": "白馬",
+              "castleNameYomi": "",
+              "castleLevel": "6",
+              "castleLocation": ""
+            },
+            {
+              "castleName": "高唐",
+              "castleNameYomi": "",
+              "castleLevel": "6",
+              "castleLocation": ""
+            },
+            {
+              "castleName": "博望",
+              "castleNameYomi": "",
+              "castleLevel": "7",
+              "castleLocation": ""
+            },
+            {
+              "castleName": "夏口",
+              "castleNameYomi": "",
+              "castleLevel": "7",
+              "castleLocation": ""
+            }
+          ]
+        },
+        {
+          "districtName": "戈陽",
+          "districtNameYomi": "",
+          "castles": [
+            {
+              "castleName": "松茲",
+              "castleNameYomi": "",
+              "castleLevel": "4",
+              "castleLocation": ""
+            },
+            {
+              "castleName": "蘄春",
+              "castleNameYomi": "",
+              "castleLevel": "5",
+              "castleLocation": ""
+            },
+            {
+              "castleName": "蘆江",
+              "castleNameYomi": "",
+              "castleLevel": "6",
+              "castleLocation": ""
+            },
+            {
+              "castleName": "戈陽",
+              "castleNameYomi": "",
+              "castleLevel": "6",
+              "castleLocation": ""
+            }
+          ]
+        },
+        {
+          "districtName": "泰山",
+          "districtNameYomi": "",
+          "castles": [
+            {
+              "castleName": "鉅野",
+              "castleNameYomi": "",
+              "castleLevel": "4",
+              "castleLocation": ""
+            },
+            {
+              "castleName": "奉高",
+              "castleNameYomi": "",
+              "castleLevel": "4",
+              "castleLocation": ""
+            },
+            {
+              "castleName": "済北",
+              "castleNameYomi": "",
+              "castleLevel": "5",
+              "castleLocation": ""
+            },
+            {
+              "castleName": "小沛",
+              "castleNameYomi": "",
+              "castleLevel": "6",
+              "castleLocation": ""
+            }
+          ]
+        },
+        {
+          "districtName": "汝南",
+          "districtNameYomi": "",
+          "castles": [
+            {
+              "castleName": "睢陽",
+              "castleNameYomi": "",
+              "castleLevel": "4",
+              "castleLocation": ""
+            },
+            {
+              "castleName": "安風",
+              "castleNameYomi": "",
+              "castleLevel": "4",
+              "castleLocation": ""
+            },
+            {
+              "castleName": "譙",
+              "castleNameYomi": "",
+              "castleLevel": "6",
+              "castleLocation": ""
+            },
+            {
+              "castleName": "汝南",
+              "castleNameYomi": "",
+              "castleLevel": "7",
+              "castleLocation": ""
+            }
+          ]
+        },
+        {
+          "districtName": "下邳",
+          "districtNameYomi": "",
+          "castles": [
+            {
+              "castleName": "海陵",
+              "castleNameYomi": "",
+              "castleLevel": "4",
+              "castleLocation": ""
+            },
+            {
+              "castleName": "淮陵",
+              "castleNameYomi": "",
+              "castleLevel": "4",
+              "castleLocation": ""
+            },
+            {
+              "castleName": "広陵",
+              "castleNameYomi": "",
+              "castleLevel": "5",
+              "castleLocation": ""
+            },
+            {
+              "castleName": "彭城",
+              "castleNameYomi": "",
+              "castleLevel": "6",
+              "castleLocation": ""
+            },
+            {
+              "castleName": "下邳",
+              "castleNameYomi": "",
+              "castleLevel": "7",
+              "castleLocation": ""
+            }
+          ]
+        },
+        {
+          "districtName": "淮南",
+          "districtNameYomi": "",
+          "castles": [
+            {
+              "castleName": "六安",
+              "castleNameYomi": "",
+              "castleLevel": "4",
+              "castleLocation": ""
+            },
+            {
+              "castleName": "皖県",
+              "castleNameYomi": "",
+              "castleLevel": "5",
+              "castleLocation": ""
+            },
+            {
+              "castleName": "合肥",
+              "castleNameYomi": "",
+              "castleLevel": "6",
+              "castleLocation": ""
+            },
+            {
+              "castleName": "寿春",
+              "castleNameYomi": "",
+              "castleLevel": "6",
+              "castleLocation": ""
+            }
+          ]
+        },
+        {
+          "districtName": "北海国",
+          "districtNameYomi": "",
+          "castles": [
+            {
+              "castleName": "琅邪",
+              "castleNameYomi": "",
+              "castleLevel": "4",
+              "castleLocation": ""
+            },
+            {
+              "castleName": "東武",
+              "castleNameYomi": "",
+              "castleLevel": "4",
+              "castleLocation": ""
+            },
+            {
+              "castleName": "高苑",
+              "castleNameYomi": "",
+              "castleLevel": "5",
+              "castleLocation": ""
+            },
+            {
+              "castleName": "北海",
+              "castleNameYomi": "",
+              "castleLevel": "6",
+              "castleLocation": ""
+            }
+          ]
+        },
+        {
+          "districtName": "潁川",
+          "districtNameYomi": "",
+          "castles": [
+            {
+              "castleName": "襄邑",
+              "castleNameYomi": "",
+              "castleLevel": "4",
+              "castleLocation": ""
+            },
+            {
+              "castleName": "濮陽",
+              "castleNameYomi": "",
+              "castleLevel": "6",
+              "castleLocation": ""
+            },
+            {
+              "castleName": "陳留",
+              "castleNameYomi": "",
+              "castleLevel": "7",
+              "castleLocation": ""
+            },
+            {
+              "castleName": "許昌",
+              "castleNameYomi": "",
+              "castleLevel": "8",
+              "castleLocation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "stateName": "河北",
+      "stateNameYomi": "",
+      "districts": [
+        {
+          "districtName": "関",
+          "districtNameYomi": "",
+          "castles": [
+            {
+              "castleName": "陰山",
+              "castleNameYomi": "",
+              "castleLevel": "6",
+              "castleLocation": ""
+            },
+            {
+              "castleName": "大城",
+              "castleNameYomi": "",
+              "castleLevel": "6",
+              "castleLocation": ""
+            },
+            {
+              "castleName": "白馬",
+              "castleNameYomi": "",
+              "castleLevel": "6",
+              "castleLocation": ""
+            },
+            {
+              "castleName": "高唐",
+              "castleNameYomi": "",
+              "castleLevel": "6",
+              "castleLocation": ""
+            },
+            {
+              "castleName": "鄜城",
+              "castleNameYomi": "",
+              "castleLevel": "7",
+              "castleLocation": ""
+            },
+            {
+              "castleName": "蒲坂津",
+              "castleNameYomi": "",
+              "castleLevel": "7",
+              "castleLocation": ""
+            }
+          ]
+        },
+        {
+          "districtName": "燕国",
+          "districtNameYomi": "",
+          "castles": [
+            {
+              "castleName": "代県",
+              "castleNameYomi": "",
+              "castleLevel": "4",
+              "castleLocation": ""
+            },
+            {
+              "castleName": "涿県",
+              "castleNameYomi": "",
+              "castleLevel": "4",
+              "castleLocation": ""
+            },
+            {
+              "castleName": "居庸",
+              "castleNameYomi": "",
+              "castleLevel": "5",
+              "castleLocation": ""
+            },
+            {
+              "castleName": "薊",
+              "castleNameYomi": "",
+              "castleLevel": "7",
+              "castleLocation": ""
+            }
+          ]
+        },
+        {
+          "districtName": "雁門",
+          "districtNameYomi": "",
+          "castles": [
+            {
+              "castleName": "劇陽",
+              "castleNameYomi": "",
+              "castleLevel": "4",
+              "castleLocation": ""
+            },
+            {
+              "castleName": "新興",
+              "castleNameYomi": "",
+              "castleLevel": "4",
+              "castleLocation": ""
+            },
+            {
+              "castleName": "雁門",
+              "castleNameYomi": "",
+              "castleLevel": "6",
+              "castleLocation": ""
+            }
+          ]
+        },
+        {
+          "districtName": "太原",
+          "districtNameYomi": "",
+          "castles": [
+            {
+              "castleName": "沾県",
+              "castleNameYomi": "",
+              "castleLevel": "4",
+              "castleLocation": ""
+            },
+            {
+              "castleName": "壺関",
+              "castleNameYomi": "",
+              "castleLevel": "5",
+              "castleLocation": ""
+            },
+            {
+              "castleName": "離石",
+              "castleNameYomi": "",
+              "castleLevel": "5",
+              "castleLocation": ""
+            },
+            {
+              "castleName": "平陽",
+              "castleNameYomi": "",
+              "castleLevel": "5",
+              "castleLocation": ""
+            },
+            {
+              "castleName": "晋陽",
+              "castleNameYomi": "",
+              "castleLevel": "7",
+              "castleLocation": ""
+            }
+          ]
+        },
+        {
+          "districtName": "上",
+          "districtNameYomi": "",
+          "castles": [
+            {
+              "castleName": "楨林",
+              "castleNameYomi": "",
+              "castleLevel": "4",
+              "castleLocation": ""
+            },
+            {
+              "castleName": "高奴",
+              "castleNameYomi": "",
+              "castleLevel": "4",
+              "castleLocation": ""
+            },
+            {
+              "castleName": "膚施",
+              "castleNameYomi": "",
+              "castleLevel": "6",
+              "castleLocation": ""
+            }
+          ]
+        },
+        {
+          "districtName": "五原",
+          "districtNameYomi": "",
+          "castles": [
+            {
+              "castleName": "定襄",
+              "castleNameYomi": "",
+              "castleLevel": "4",
+              "castleLocation": ""
+            },
+            {
+              "castleName": "西安陽",
+              "castleNameYomi": "",
+              "castleLevel": "4",
+              "castleLocation": ""
+            },
+            {
+              "castleName": "九原",
+              "castleNameYomi": "",
+              "castleLevel": "6",
+              "castleLocation": ""
+            }
+          ]
+        },
+        {
+          "districtName": "常山",
+          "districtNameYomi": "",
+          "castles": [
+            {
+              "castleName": "甘陵",
+              "castleNameYomi": "",
+              "castleLevel": "4",
+              "castleLocation": ""
+            },
+            {
+              "castleName": "鉅鹿",
+              "castleNameYomi": "",
+              "castleLevel": "4",
+              "castleLocation": ""
+            },
+            {
+              "castleName": "中山",
+              "castleNameYomi": "",
+              "castleLevel": "5",
+              "castleLocation": ""
+            },
+            {
+              "castleName": "信都",
+              "castleNameYomi": "",
+              "castleLevel": "6",
+              "castleLocation": ""
+            },
+            {
+              "castleName": "真定",
+              "castleNameYomi": "",
+              "castleLevel": "6",
+              "castleLocation": ""
+            }
+          ]
+        },
+        {
+          "districtName": "渤海",
+          "districtNameYomi": "",
+          "castles": [
+            {
+              "castleName": "楽陵",
+              "castleNameYomi": "",
+              "castleLevel": "4",
+              "castleLocation": ""
+            },
+            {
+              "castleName": "楽成",
+              "castleNameYomi": "",
+              "castleLevel": "5",
+              "castleLocation": ""
+            },
+            {
+              "castleName": "平原",
+              "castleNameYomi": "",
+              "castleLevel": "6",
+              "castleLocation": ""
+            },
+            {
+              "castleName": "南皮",
+              "castleNameYomi": "",
+              "castleLevel": "7",
+              "castleLocation": ""
+            }
+          ]
+        },
+        {
+          "districtName": "魏",
+          "districtNameYomi": "",
+          "castles": [
+            {
+              "castleName": "頓丘",
+              "castleNameYomi": "",
+              "castleLevel": "4",
+              "castleLocation": ""
+            },
+            {
+              "castleName": "館陶",
+              "castleNameYomi": "",
+              "castleLevel": "7",
+              "castleLocation": ""
+            },
+            {
+              "castleName": "鄴",
+              "castleNameYomi": "",
+              "castleLevel": "8",
+              "castleLocation": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
