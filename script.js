@@ -46,15 +46,11 @@ function getSelectionTextarea(e) {
   }
 }
 
-// テキストエリアのテキストをすべてクリップボードにコピーする関数
-function copy(FlexTextarea) {
-  var targetText = FlexTextarea;
+// テキストエリアのテキストをすべてクリップボードにコピー
+document.getElementById("copy-button").addEventListener("click", function () {
+  var targetText = document.getElementById("FlexTextarea");
   var replacedCopyText = targetText.value.replace(/\n/g, "\\n");
-
   if (navigator.userAgent.match(/iphone|ipod|ipad|android/i)) {
-    try {
-      targetText.select();
-    } catch (error) {}
     var range = document.createRange();
     range.selectNode(targetText);
     window.getSelection().addRange(range);
@@ -66,14 +62,17 @@ function copy(FlexTextarea) {
     }
   }
   // クリップボードにコピー
-  if (navigator.clipboard == undefined) {
-    // IE
-    window.clipboardData.setData("Text", replacedCopyText);
-  } else {
-    // IE以外
-    navigator.clipboard.writeText(replacedCopyText);
-  }
-}
+  navigator.clipboard.writeText(replacedCopyText);
+
+  // コピー完了の表示
+  var coyButtonElement = document.getElementById("copy-button");
+  coyButtonElement.textContent = "コピーしました";
+  coyButtonElement.value = "コピーしました";
+  // 3秒後に元の文字列に戻す
+  setTimeout(function () {
+    coyButtonElement.textContent = "全部コピー";
+  }, 3000); // 3000ミリ秒 = 3秒
+});
 
 // テキストエリアを書く文量によって拡大する関数
 function flexTextarea(el) {
