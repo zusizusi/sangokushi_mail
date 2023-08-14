@@ -44,31 +44,17 @@ function getSelectionTextarea(e) {
 document.getElementById("copy-button").addEventListener("click", function () {
   var targetText = document.getElementById("FlexTextarea");
   var replacedCopyText = targetText.value.replace(/\n/g, "\\n");
-  if (navigator.userAgent.match(/iphone|ipod|ipad|android/i)) {
-    var range = document.createRange();
-    range.selectNode(targetText);
-    window.getSelection().addRange(range);
-  } else {
-    try {
-      targetText.select(); 
-    } catch (error) {
-      document.getSelection().selectAllChildren(a);
-    }
-  }
-  // クリップボードにコピー
   navigator.clipboard.writeText(replacedCopyText);
-
   // コピー完了の表示
   var coyButtonElement = document.getElementById("copy-button");
   coyButtonElement.textContent = "コピーしました";
-  coyButtonElement.value = "コピーしました";
   // 3秒後に元の文字列に戻す
   setTimeout(function () {
     coyButtonElement.textContent = "全部コピー";
-  }, 3000); // 3000ミリ秒 = 3秒
+  }, 3000); 
 });
 
-// テキストエリアを書く文量によって拡大する関数
+// テキストエリアを書く文量によってtextAreaを拡大する関数
 function flexTextarea(el) {
   const dummy = el.querySelector(".FlexTextarea__dummy");
   el.querySelector(".FlexTextarea__textarea").addEventListener("input", (e) => {
