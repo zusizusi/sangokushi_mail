@@ -79,15 +79,15 @@
   box-shadow: 0 0 0 4px #cbeecb !important;
 }
 
-.yello-button {
+.yellow-button {
   background-color: #dfe79a !important;
 }
 
-.yello-button:hover {
+.yellow-button:hover {
   background-color: #d2e052 !important;
 }
 
-.yello-button:focus {
+.yellow-button:focus {
   outline: none !important;
   box-shadow: 0 0 0 4px #eceecb !important;
 }

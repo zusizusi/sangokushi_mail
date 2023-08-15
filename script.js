@@ -1,89 +1,60 @@
-// 文字に色をつける記号を挿入
 function addColor(e, color) {
-  var get_text = getSelectionTextarea(e);
+  const colorSymbols = {
+    blue: "@",
+    red: "&",
+    green: "$",
+    yellow: "#",
+  };
+  const get_text = getSelectionTextarea(e);
   console.log(get_text);
-  if (get_text == "ブラウザが対応していません") {
-    alert("ブラウザが対応していません");
+  if (get_text === "ブラウザが対応していません") {
+    alert(get_text);
+    return;
   }
-  //テキストエリアと挿入する文字列を取得
-  var targetTextArea = document.getElementById("FlexTextarea");
-  var text1;
-  var text2;
-  if (color == "blue") {
-    text1 = "@";
-    text2 = "@";
-  } else if (color == "red") {
-    text1 = "&";
-    text2 = "&";
-  } else if (color == "green") {
-    text1 = "$";
-    text2 = "$";
-  } else if (color == "yellow") {
-    text1 = "#";
-    text2 = "#";
-  } else {
-    text1 = "";
-    text2 = "";
-  }
+
+  const targetTextArea = document.getElementById("FlexTextarea");
+  const [text1, text2] = colorSymbols.hasOwnProperty(color)
+    ? [colorSymbols[color], colorSymbols[color]]
+    : ["", ""];
+
   //カーソルの開始位置と終了位置を基準に分割
   targetTextArea.value =
-    targetTextArea.value.substr(0, targetTextArea.selectionStart) +
+    targetTextArea.value.substring(0, targetTextArea.selectionStart) +
     text1 +
-    targetTextArea.value.substr(
+    targetTextArea.value.substring(
       targetTextArea.selectionStart,
-      targetTextArea.selectionEnd - targetTextArea.selectionStart
+      targetTextArea.selectionEnd
     ) +
     text2 +
-    targetTextArea.value.substr(targetTextArea.selectionEnd);
+    targetTextArea.value.substring(targetTextArea.selectionEnd);
 }
 
 // テキストエリアから選択部分を取得
 function getSelectionTextarea(e) {
-  if (document.selection) {
-    // IE
-    e.focus(); // ドキュメントのフォーカスをテキストエリアにあてる
-    var r = document.selection.createRange(); // 現在フォーカスのあたっている選択範囲を取得する
-    return r.text;
-  } else if (e.setSelectionRange) {
-    // Mozilla(NN)
-    e.focus(); // NNの場合は得にフォーカスをあてる必要はないが動作を同等にしている
+  try {
+    e.focus();
     return e.value.substring(e.selectionStart, e.selectionEnd); // テキストエリアのvalueから開始位置と終了位置を指定して抜き出し
-  } else {
+  } catch (error) {
     alert("ブラウザが対応していません");
     return null;
   }
 }
 
-// テキストエリアのテキストをすべてクリップボードにコピーする関数
-function copy(FlexTextarea) {
-  var targetText = FlexTextarea;
+// テキストエリアのテキストをすべてクリップボードにコピー
+document.getElementById("copy-button").addEventListener("click", function () {
+  var targetText = document.getElementById("FlexTextarea");
   var replacedCopyText = targetText.value.replace(/\n/g, "\\n");
+  navigator.clipboard.writeText(replacedCopyText);
+  // コピー完了の表示
+  var coyButtonElement = document.getElementById("copy-button");
+  coyButtonElement.textContent = "コピーしました";
+  // 3秒後に元の文字列に戻す
+  setTimeout(function () {
+    coyButtonElement.textContent = "全部コピー";
+  }, 3000); 
+});
 
-  if (navigator.userAgent.match(/iphone|ipod|ipad|android/i)) {
-    try {
-      targetText.select();
-    } catch (error) {}
-    var range = document.createRange();
-    range.selectNode(targetText);
-    window.getSelection().addRange(range);
-  } else {
-    try {
-      targetText.select(); // input field
-    } catch (error) {
-      document.getSelection().selectAllChildren(a);
-    }
-  }
-  // クリップボードにコピー
-  if (navigator.clipboard == undefined) {
-    // IE
-    window.clipboardData.setData("Text", replacedCopyText);
-  } else {
-    // IE以外
-    navigator.clipboard.writeText(replacedCopyText);
-  }
-}
-
-// テキストエリアを書く文量によって拡大する関数
+// テキストエリアを書く文量によってtextAreaを拡大する関数
 function flexTextarea(el) {
   const dummy = el.querySelector(".FlexTextarea__dummy");
   el.querySelector(".FlexTextarea__textarea").addEventListener("input", (e) => {
@@ -103,76 +74,18 @@ function addText(inputText) {
 }
 
 // jsonファイルからマップデータを読み取る
-function getJsonData() {
-  // XMLHttpRequestインスタンスを作成
+function getJsonData(jsonFilePath, jsonKey, version) {
   let request = new XMLHttpRequest();
-  // JSONファイルが置いてあるパスを記述
-  request.open("GET", "map_data/s3data_1500.json");
+  request.open("GET", jsonFilePath);
   request.send();
-  // JSON読み込み時の処理
-  request.onreadystatechange = () => {
-    // 全てのデータを受信・正常に処理された場合
-    if (request.readyState == 4 && request.status == 200) {
-      // JSONデータを変換
-      let json = JSON.parse(request.responseText);
-      json = json["s3"];
-      for (let i = 0; i < json.length; ++i) {
-        generateStateButton(json[i], 3);
-        generateCastleButton(json[i], 3);
-        for (var j = 0; j < json[i]["districts"].length; j++) {
-          for (var k = 0; k < json[i]["districts"][j]["castles"].length; k++)
-            json[i]["districts"][j]["castles"][k]["castleLocation"] = "";
-        }
-        generateStateButton(json[i], 2);
-        generateCastleButton(json[i], 2);
-      }
-    }
-  };
-}
 
-// s4マップ用
-// TODO getJsonData()に統合
-function getS4JsonData() {
-  // XMLHttpRequestインスタンスを作成
-  let request = new XMLHttpRequest();
-  // JSONファイルが置いてあるパスを記述
-  request.open("GET", "map_data/s4data_1500.json");
-  request.send();
-  // JSON読み込み時の処理
   request.onreadystatechange = () => {
-    // 全てのデータを受信・正常に処理された場合
     if (request.readyState == 4 && request.status == 200) {
-      // JSONデータを変換
       let json = JSON.parse(request.responseText);
-      json = json["s4"];
+      json = json[jsonKey];
       for (let i = 0; i < json.length; ++i) {
-        // console.log(json[i]);
-        generateStateButton(json[i], 4);
-        generateCastleButton(json[i], 4);
-      }
-    }
-  };
-}
-
-// s4マップ用
-// TODO getJsonData()に統合
-function getS9JsonData() {
-  // XMLHttpRequestインスタンスを作成
-  let request = new XMLHttpRequest();
-  // JSONファイルが置いてあるパスを記述
-  request.open("GET", "map_data/s9data_1500.json");
-  request.send();
-  // JSON読み込み時の処理
-  request.onreadystatechange = () => {
-    // 全てのデータを受信・正常に処理された場合
-    if (request.readyState == 4 && request.status == 200) {
-      // JSONデータを変換
-      let json = JSON.parse(request.responseText);
-      json = json["s9"];
-      for (let i = 0; i < json.length; ++i) {
-        // console.log(json[i]);
-        generateStateButton(json[i], 9);
-        generateCastleButton(json[i], 9);
+        generateStateButton(json[i], version);
+        generateCastleButton(json[i], version);
       }
     }
   };
@@ -212,7 +125,7 @@ function generateStateButton(json, version) {
   } else if (version == 3) {
     var divButtons = document.getElementById("state-district-s3");
   } else {
-    var divButtons = document.getElementById("state-district-s2");
+    var divButtons = document.getElementById("state-district-non-coordinate");
   }
   divButtons.innerHTML += div_html;
 }
@@ -266,12 +179,17 @@ function generateCastleButton(json, version) {
     var divButtons = document.getElementById("castle-name-s4");
   else if (version == 3)
     var divButtons = document.getElementById("castle-name-s3");
-  else var divButtons = document.getElementById("castle-name-s2");
+  else var divButtons = document.getElementById("castle-name-non-coordinate");
   divButtons.innerHTML += div_html;
 }
 
 window.onload = function () {
-  getJsonData();
-  getS4JsonData();
-  getS9JsonData();
+  getJsonData(
+    "map_data/non-coordinate.json",
+    "non-coordinate",
+    "non-coordinate"
+  );
+  getJsonData("map_data/s3data_1500.json", "s3", 3);
+  getJsonData("map_data/s4data_1500.json", "s4", 4);
+  getJsonData("map_data/s9data_1500.json", "s9", 9);
 };
